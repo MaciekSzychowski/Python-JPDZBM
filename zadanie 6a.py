@@ -1,4 +1,5 @@
 """ Funkcja komplement,która dla sekwencji nici kodującej DNA znajduje i zwraca sekwencję nici matrycowej,
+:author Maciej Szychowski
 :param DNA  - sekwencja nici kodującej DNA
 :return   - zwraca sekwencję nici matrycowej
  """

@@ -1,4 +1,5 @@
 """ Fuknkcja transkrybuj, która dla sekwencji nici matrycowej DNA znajduje i zwraca sekwencję RNA
+:author Maciej Szychowski
 :param DNA  - sekwencja nici DNA
 :return   - zwraca sekwencję RNA
  """
