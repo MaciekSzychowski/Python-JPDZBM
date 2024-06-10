@@ -1,3 +1,10 @@
+""" Funkcja collatz, która dla zadanego parametru c0 obliczy i zwróci wszystkie kolejne elementy ciągu przed wpadnięciem w cykl
+:author Maciej Szychowski
+:param c0  - liczba naturalna, większa od zera
+:return   - zwraca listę z elementami ciągu Collatza
+ """
+
+
 def collatz(c0):
     if c0 <= 0:     # warunek, ze c0 musi byc liczbą naturalną
         raise ValueError("c0 musi być liczbą naturalną większą od 0.")  # w przypadku gdy nie jest wyswietla sie komunikat, https://www.w3schools.com/python/ref_keyword_raise.asp

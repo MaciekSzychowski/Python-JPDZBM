@@ -1,3 +1,8 @@
+""" Funkcja która dla zadanego n obliczy i zwróci listę n pierwszych elementów ciągu Fibonacciego
+  :author Maciej Szychowski
+ :param n - liczba okreslająca dla jakiej liczby należy obliczyć ciąg
+ :return   - zwraca listę z elementami dla ciągu
+ """
 def fibonacci(n):
     if n <= 0:          # Sprawdzam, czy n jest nieujemne, jeżeli jest ujemne lum mniejsze od zera zwraca pustą listę, ciąg nie ma sensu
         return []

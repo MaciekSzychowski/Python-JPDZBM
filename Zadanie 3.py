@@ -1,4 +1,11 @@
 import itertools
+""" Funkcja podzbiory, która dla zadanego zbioru x zwróci listę wszystkich podzbiorów
+ 
+ :author Maciej Szychowski
+ :param listaDoPrzechowywania - pusta lista do przechowywania podzbiorów
+ :return listaDoPrzechowywania  - zwraca listę z podzbiorami
+ """
+
 
 def podzbiory(x):  # funkcja podzbiory, ktora zawiera zbior wejsciowy podany przez nas
 

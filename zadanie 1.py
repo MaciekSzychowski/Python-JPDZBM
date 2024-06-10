@@ -1,5 +1,13 @@
 import math
-
+""""
+  Funkcja heron służąca do obliczania pola trójkąta
+ :author Maciej Szychowski
+ :param a pierwszy bok
+ :param b drugi bok
+ :param c trzeci bok
+ :return pole trójkąta
+ 
+"""
 def heron(a, b, c):
         if ((a + b > c) and (a + c > b) and (b + c > a)):
                 print("Trójkąt o podanych bokach istnieje")

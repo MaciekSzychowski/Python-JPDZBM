@@ -1,5 +1,12 @@
 from collections import Counter
-
+"""
+ Funkcja wspólne, która dla dwóch multizbiorów x i y zwróca ich część wspólną.
+ 
+ :author Maciej Szychowski
+ :param multizbiorX - pierwszy multizbior X
+ :param multizbiorY - drugi multizbior Y
+ :return  wspolny_multizbior - multizbior zawierajacy czesci wspolne
+ """
 # https://kajodata.com/python/jak-policzyc-elementy-listy-w-pythonie-python-dictionary-counte/
 # https://www.geeksforgeeks.org/difference-between-and-and-in-python/
 def wspolne(x,y):
